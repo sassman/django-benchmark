@@ -1,0 +1,368 @@
+~~~ Testing baseline-html : http://localhost:86/baseline/index.html
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /baseline/index.html
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.695 seconds
+Complete requests:      50000
+Failed requests:        49909
+   (Connect: 0, Receive: 0, Length: 49909, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49909
+Total transferred:      21187442 bytes
+HTML transferred:       11030890 bytes
+Requests per second:    6497.95 [#/sec] (mean)
+Time per request:       1.539 [ms] (mean)
+Time per request:       0.154 [ms] (mean, across all concurrent requests)
+Transfer rate:          2688.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       3
+Processing:     0    1   1.2      1      55
+Waiting:        0    1   1.2      1      55
+Total:          0    2   1.2      1      55
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      2
+  98%      3
+  99%      4
+ 100%     55 (longest request)
+~~~ Testing baseline-php : http://localhost:86/baseline/index.php
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /baseline/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   8.158 seconds
+Complete requests:      50000
+Failed requests:        49891
+   (Connect: 0, Receive: 0, Length: 49891, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49891
+Total transferred:      21128091 bytes
+HTML transferred:       10977219 bytes
+Requests per second:    6128.73 [#/sec] (mean)
+Time per request:       1.632 [ms] (mean)
+Time per request:       0.163 [ms] (mean, across all concurrent requests)
+Transfer rate:          2529.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       8
+Processing:     0    2   1.1      1      54
+Waiting:        0    1   1.0      1      51
+Total:          0    2   1.1      2      54
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      3
+  99%      4
+ 100%     54 (longest request)
+~~~ Testing CakePHP 1.3.4 : http://localhost:86/cakephp-1.3.4/app/webroot/index.php/benchmark
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /cakephp-1.3.4/app/webroot/index.php/benchmark
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   30.016 seconds
+Complete requests:      35972
+Failed requests:        34816
+   (Connect: 0, Receive: 0, Length: 34816, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      34816
+Total transferred:      15924276 bytes
+HTML transferred:       8612290 bytes
+Requests per second:    1198.45 [#/sec] (mean)
+Time per request:       8.344 [ms] (mean)
+Time per request:       0.834 [ms] (mean, across all concurrent requests)
+Transfer rate:          518.10 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     0    8  41.1      0     580
+Waiting:        0    8  40.1      0     580
+Total:          0    8  41.1      0     580
+
+Percentage of the requests served within a certain time (ms)
+  50%      0
+  66%      1
+  75%      1
+  80%      2
+  90%      3
+  95%      6
+  98%    207
+  99%    239
+ 100%    580 (longest request)
+~~~ Testing CodeIgniter 1.7.2 : http://localhost:86/codeigniter-1.7.2/index.php
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /codeigniter-1.7.2/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   8.710 seconds
+Complete requests:      50000
+Failed requests:        49873
+   (Connect: 0, Receive: 0, Length: 49873, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49873
+Total transferred:      21573330 bytes
+HTML transferred:       11422314 bytes
+Requests per second:    5740.29 [#/sec] (mean)
+Time per request:       1.742 [ms] (mean)
+Time per request:       0.174 [ms] (mean, across all concurrent requests)
+Transfer rate:          2418.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       2
+Processing:     0    2   2.6      1     106
+Waiting:        0    1   2.4      1      96
+Total:          0    2   2.6      2     106
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      4
+  99%      6
+ 100%    106 (longest request)
+~~~ Testing Symfony 1.4.8 : http://localhost:86/symfony-1.4.8/web/index.php
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /symfony-1.4.8/web/index.php
+Document Length:        0 bytes
+
+Concurrency Level:      10
+Time taken for tests:   13.857 seconds
+Complete requests:      50000
+Failed requests:        49783
+   (Connect: 0, Receive: 0, Length: 49783, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      50000
+Total transferred:      21555949 bytes
+HTML transferred:       11400307 bytes
+Requests per second:    3608.39 [#/sec] (mean)
+Time per request:       2.771 [ms] (mean)
+Time per request:       0.277 [ms] (mean, across all concurrent requests)
+Transfer rate:          1519.18 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       2
+Processing:     0    3   8.6      2     396
+Waiting:        0    2   8.4      2     383
+Total:          0    3   8.6      2     396
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      4
+  98%      7
+  99%     11
+ 100%    396 (longest request)
+~~~ Testing Yii 1.1.4 : http://localhost:86/yii-1.1.4/index.php
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /yii-1.1.4/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   9.388 seconds
+Complete requests:      50000
+Failed requests:        49844
+   (Connect: 0, Receive: 0, Length: 49844, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49844
+Total transferred:      21168488 bytes
+HTML transferred:       11017240 bytes
+Requests per second:    5326.07 [#/sec] (mean)
+Time per request:       1.878 [ms] (mean)
+Time per request:       0.188 [ms] (mean, across all concurrent requests)
+Transfer rate:          2202.05 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       9
+Processing:     0    2   3.7      1     155
+Waiting:        0    2   3.5      1     155
+Total:          0    2   3.7      2     155
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      4
+  99%      8
+ 100%    155 (longest request)
+~~~ Testing Zend 1.10.8 : http://localhost:86/zend-1.10.8/index.php
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /zend-1.10.8/index.php
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   9.836 seconds
+Complete requests:      50000
+Failed requests:        49842
+   (Connect: 0, Receive: 0, Length: 49842, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49842
+Total transferred:      21267768 bytes
+HTML transferred:       11116504 bytes
+Requests per second:    5083.43 [#/sec] (mean)
+Time per request:       1.967 [ms] (mean)
+Time per request:       0.197 [ms] (mean, across all concurrent requests)
+Transfer rate:          2111.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       2
+Processing:     0    2   6.5      1     305
+Waiting:        0    2   6.3      1     302
+Total:          0    2   6.5      2     305
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      5
+  99%      8
+ 100%    305 (longest request)
+~~~ Testing Django 1.3 : http://localhost:86/django-1.3/
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.17
+Server Hostname:        localhost
+Server Port:            86
+
+Document Path:          /django-1.3/
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   8.499 seconds
+Complete requests:      50000
+Failed requests:        49837
+   (Connect: 0, Receive: 0, Length: 49837, Exceptions: 0)
+Write errors:           0
+Non-2xx responses:      49837
+Total transferred:      20763975 bytes
+HTML transferred:       10617074 bytes
+Requests per second:    5882.97 [#/sec] (mean)
+Time per request:       1.700 [ms] (mean)
+Time per request:       0.170 [ms] (mean, across all concurrent requests)
+Transfer rate:          2385.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       5
+Processing:     0    2   2.4      1     141
+Waiting:        0    1   2.3      1     140
+Total:          0    2   2.4      2     141
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      2
+  95%      3
+  98%      4
+  99%      5
+ 100%    141 (longest request)

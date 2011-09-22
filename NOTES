@@ -1,0 +1,9 @@
+Today i found a impressive chart on the web. This chart illustrates the power of php frameworks. This benchmark shows how many requests per second a very simple web application can deliver. The Test is targeting on the basic overhead of the framework, things like bootstrap initialization etc. This kind of overhead that every request have. So this benchmark is provided by the Framework Yii, and what a surprise, this framework is the best of all in this benchmark.
+
+So far so good. The question that i have ask myself was, how fast a django based python application that also deliver this simple "hello world" will be?
+I created a very basic simple django 1.3 application for testing the performance.
+
+all the code is available to my github repository (including the code providing from yii).
+
+here are the interesting results:
+
