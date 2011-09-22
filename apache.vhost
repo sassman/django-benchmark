@@ -1,0 +1,22 @@
+# configure the path to your system
+
+Listen 86
+
+<VirtualHost *:86>
+    DocumentRoot /home/sassman/workspaces/web/django-benchmark/
+    <Directory "/home/sassman/workspaces/web/django-benchmark/">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from All
+    </Directory>
+
+    WSGIDaemonProcess djangobench threads=50 maximum-requests=10000000
+    WSGIProcessGroup djangobench
+    WSGIScriptAlias /django-1.3/  /home/sassman/workspaces/web/django-benchmark/django-1.3/apache/django.wsgi
+    <Directory /home/sassman/workspaces/web/django-benchmark/django-1.3/apache>
+            Order deny,allow
+            Allow from all
+    </Directory>
+
+</VirtualHost>
