@@ -1,4 +1,5 @@
 The Original Code can found here: http://code.google.com/p/phpmark
+also take a look at: http://www.yiiframework.com/performance/
 
 This folder contains the benchmark applications for each PHP framework.
 
@@ -22,3 +23,4 @@ Symfony 1.4.8:               /symfony-1.4.8/web/index.php
 Yii 1.1.4:                   /yii-1.1.4/index.php
 Zend 1.10.8:                 /zend-1.10.8/index.php
 Django 1.3:                  /django-1.3/
+
